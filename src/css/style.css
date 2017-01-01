@@ -1,0 +1,401 @@
+
+
+
+
+.wrapper {
+  width: 100%;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: normal;
+}
+
+/*Начинается header */
+
+.header {
+  background-image: url(../images/header.png);
+  width: 100%;
+}
+
+.main-menu {
+  text-align: center;
+  white-space: nowrap;
+  list-style: none;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  height: 1.8em;
+  margin: 0.6em 0;
+  padding: 0.35em 1.4em;
+  color: #CECECE;
+  border-radius: 1.5em;
+}
+
+.main-menu li a:hover {
+  background-color:#98999A;
+  color: #131A1E;
+}
+
+/*конец header*/
+/*начало контента*/
+/*начало секция schedule-planner*/
+
+.schedule-planner {
+  background-image: url(../images/Schedule-Planner.jpg);
+}
+
+.schedule-planner .border {
+  background-image: url(../images/border.png);
+  height: 5px;
+  position: relative;
+  top: 2.5px;
+}
+
+.million {
+  position: absolute;
+  top: -35px;
+  right: 4.5%;
+}
+
+
+.wrapper-content {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.planner img, h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.planner {
+  padding-top: 2.19em;
+  text-align: center;
+}
+
+.planner h1 {
+  font-size: 76px;
+  font-family: "MyriadProBold";
+  color: #B03600;
+  padding-left: 3.3%;
+}
+
+.planner img {
+  width: 10.3%;
+  max-width: 103px;
+  min-width: 42px;
+  height: auto;
+}
+
+.gadgets-menu {
+  text-align: center;
+  padding-top: 2.19em;
+  padding-bottom: 2.19em;
+}
+
+.gadgets-menu picture {
+  display: block;
+}
+
+.gadgets-menu li {
+  display: inline-block;
+  padding-left: 9%;
+}
+
+.gadgets-menu li:first-child {
+  padding-left: 0;
+}
+
+.gadgets-menu a {
+  text-decoration: none;
+  color: #3D3D3D;
+  font-size: 14px;
+  font-family: "MyriadProRegular";
+}
+
+.gadgets-menu a:hover {
+  color: #F55500;
+}
+
+
+.gadgets-menu img {
+  height: 42px;
+  width: auto;
+}
+
+
+/*начало слайдера*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-image: url(../images/Schedule-Planner.jpg);
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+     -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 60%;
+    height: auto;
+}
+
+.swiper-button-next {
+  color: #272822;
+}
+
+
+/*конец секция schedule-planner*/
+/*начало секция google*/
+
+.google {
+  background-color: #EFEFEF;
+}
+
+.google ul {
+  padding-bottom: 80px;
+}
+
+
+.google ul li {
+  display: inline-block;
+  padding: 10px;
+  width: 47%;
+  vertical-align: top;
+  padding-top: 3em;
+}
+
+
+.google h2 {
+  display: inline-block;
+  padding-left: 6.8%;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-size: 34px;
+  color: #A3543F;
+}
+
+.google img {
+  float: left;
+  width: 28.9%;
+  max-width: 136px;
+  min-width: 70px;
+  height: auto;
+}
+
+.google p {
+  padding-left: 36.1%;
+  padding-right: 15px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3C3C3C;
+}
+
+/*конец секции google*/
+/*начало секции icons*/
+
+.icons {
+  background-image: url(../images/bacgraund3.png);
+}
+
+.icons ul {
+  padding-bottom: 30px;
+}
+
+.icons ul li {
+  display: inline-block;
+  width: 43%;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-top: 30px;
+  padding-left: 20px;
+  word-wrap: break-word;
+}
+
+.icons img {
+  vertical-align: middle;
+  width: 41px;
+  height: auto;
+  padding-right: 3%;
+}
+
+.icons h2 {
+  display: inline-block;
+  width: 79%;
+}
+
+/*конец секции icons*/
+/*начало секции articles*/
+
+.articles {
+  background-color: #EFEFEF;
+}
+
+.articles ul {
+  padding: 30px 20px;
+
+}
+
+.articles ul li {
+  display: inline-block;
+  padding-right: 5%;
+  width: 28%;
+  vertical-align: top;
+}
+
+.articles li p {
+  line-height: 25px;
+  color:#3C3C3C;
+}
+
+.articles li h3 {
+  text-align: right;
+  font-size: 18px;
+  color: #A24E30;
+  padding-top: 5px;
+}
+
+
+.read-more {
+  text-align: center;
+}
+
+.read-more img {
+  width: 23%;
+  min-width: 200px;
+  max-width: 236px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  top: 37px;
+
+}
+
+/*конец секции articles*/
+/*конец коетента*/
+/*начало footer*/
+
+.footer {
+  background-color: #363636;
+  padding-top: 50px;
+  position: relative;
+}
+
+.border-footer {
+  background-image: url(../images/border-footer.png);
+  height: 13px;
+  position: relative;
+  top: 6.5px;
+}
+
+.connect {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.connect ul li {
+  display: inline-table;
+  padding-left: 9px;
+}
+
+.connect ul li:first-child {
+  padding-left: 0;
+}
+
+.connect h3 {
+  font-size: 22px;
+  color: #B3B3B3;
+  padding-bottom: 10px;
+}
+
+.form {
+  display: inline-block;
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.form nav {
+  color: #B3B3B3;
+  font-size: 12px;
+  font-family: "MyriadProRegular";
+  margin-bottom: 5px;
+}
+
+.form input {
+  width: 150px;
+  background-color: #050505;
+  border-color: #050505;
+  color: #fff;
+}
+
+.form input:focus {
+    outline:none;
+}
+
+.form button {
+  width: 70px;
+  height: 22px;
+  background-color: #005A8B;
+  border-color:  #191919;
+  border-width: 1px;
+  border-radius: 3px; 
+  color: #fff;
+}
+
+.button button:focus {
+    outline:none;
+}
+
+.partners {
+  display: inline-block;
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.partners ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.partners h3 {
+  font-size: 22px;
+  color: #B3B3B3;
+  margin-bottom: 10px;
+}
+
+.partners ul li:first-child {
+  padding-left: 0;
+}
+
+.intersog {
+  text-align: center;
+  font-size: 12px;
+  color: #B3B3B3;
+  padding: 8px 0;
+  border-top: 1px solid #575757;
+  box-shadow: 0 -1px 0 #262626;   
+  width:100%;
+}

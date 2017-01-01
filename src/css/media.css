@@ -1,0 +1,97 @@
+/*========== Desktop First Method ==========*/
+
+@media only screen and (max-width : 950px) {
+	.google h2 {
+		font-size: 24px;
+	}
+
+	.google p {
+		font-size: 14px;
+	}
+
+	.icons ul li {
+		font-size: 18px;
+	}
+
+	.articles ul li {
+		width: 100%;
+		padding-bottom: 25px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.million {
+  		display: none;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 769px) {
+	.planner h1 {
+		font-size: 65px;
+	}
+
+	.google ul li {
+		width: 100%;
+	}
+
+	.google p {
+		padding-left: 16%;
+	}
+
+	.google h2 {
+		padding-left: 3%;
+	}
+
+	.google img {
+		width: 13%
+	}
+
+	.icons ul li {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 619px) {
+	.planner h1 {
+		font-size: 50px;
+	}
+
+	.planner {
+  		padding-top: 15px;
+	}
+
+	.google p {
+		padding-left: 83px;
+	}
+
+	.google h2 {
+		padding-left: 10px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 489px) {
+	.main-menu li a {
+		font-size: 13px;
+	}
+
+	.planner h1 {
+		font-size: 40px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+	.planner h1 {
+		font-size: 28px;
+	}
+
+	.google h2 {
+		font-size: 22px;
+	}
+}
