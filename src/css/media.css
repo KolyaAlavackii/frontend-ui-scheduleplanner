@@ -14,32 +14,38 @@
 	}
 
 	.articles ul li {
-		width: 100%;
+		display: block;
+		width: 95%;
 		padding-bottom: 25px;
 	}
 
-	.footer {
-		text-align: center;
+	.partners {
+		margin-left: 20px;
 	}
 
-	.million {
+	.sun {
   		display: none;
+	}
+
+	.form {
+		margin-left: 20px;
 	}
 }
 
 
-/* Small Devices, Tablets */
+ /*Small Devices, Tablets */
 @media only screen and (max-width : 769px) {
 	.planner h1 {
 		font-size: 65px;
 	}
 
 	.google ul li {
-		width: 100%;
+		width: 95%;
 	}
 
 	.google p {
 		padding-left: 16%;
+		padding-right: 0;
 	}
 
 	.google h2 {
@@ -52,6 +58,11 @@
 
 	.icons ul li {
 		width: 100%;
+	}
+
+	.schedule-planner::before{
+    background: url(../images/glare_769.png) no-repeat;
+    height: 303px;
 	}
 }
 
@@ -71,27 +82,50 @@
 	.google h2 {
 		padding-left: 10px;
 	}
+
+	.read-more-button {
+		font-size: 20px;
+		width: 190px;
+	}
 }
 
 
-/* Extra Small Devices, Phones */
+ /*Extra Small Devices, Phones */
 @media only screen and (max-width : 489px) {
 	.main-menu li a {
 		font-size: 13px;
 	}
 
 	.planner h1 {
-		font-size: 40px;
+		font-size: 38px;
+	}
+
+	.read-more-button {
+		font-size: 18px;
+		width: 160px;
+	}
+
+	.schedule-planner::before{
+    background: url(../images/glare_420.png) no-repeat;
+    height: 134px;
 	}
 }
 
-/* Custom, iPhone Retina */
+ /*Custom, iPhone Retina */
 @media only screen and (max-width : 380px) {
+	.main-menu li a {
+		padding: 0.35em 1em;
+	}
+
 	.planner h1 {
 		font-size: 28px;
 	}
 
 	.google h2 {
 		font-size: 22px;
+	}
+
+	.icons img {
+		width: 38px;
 	}
 }
