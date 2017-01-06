@@ -118,9 +118,6 @@
   padding-bottom: 2.19em;
 }
 
-.gadgets-menu picture {
-  display: block;
-}
 
 .gadgets-menu li {
   display: inline-block;
@@ -133,20 +130,43 @@
 
 .gadgets-menu a {
   text-decoration: none;
-  color: #3D3D3D;
-  font-size: 14px;
-  font-family: "MyriadProRegular";
+  display: block;
+  height: 65px;
+  text-indent: 100%;
+  overflow: hidden;
+  background-image: url(../images/app-platforms.png);
 }
 
-.gadgets-menu a:hover {
-  color: #F55500;
+.gadgets-menu .ipxone {
+  background-position: -22px 0;
+  width: 40px;
+}
+.gadgets-menu .ipad {
+  background-position: -22px 65px;
+  width: 38px;
+}
+.gadgets-menu .android {
+  background-position: -18px 131px;
+  width: 46px;
+}
+.gadgets-menu .kindle {
+  background-position: -22px bottom;
+  width: 38px;
+}
+.gadgets-menu .ipxone:hover {
+  background-position: 57px 0;
+}
+.gadgets-menu .ipad:hover {
+  background-position: 57px 65px;
+}
+.gadgets-menu .android:hover {
+  background-position: 61px 131px;
+}
+.gadgets-menu .kindle:hover {
+  background-position: 57px bottom;
 }
 
 
-.gadgets-menu img {
-  height: 42px;
-  width: auto;
-}
 
 /*начало слайдера*/
 .swiper-container {
