@@ -130,40 +130,40 @@
 
 .gadgets-menu a {
   text-decoration: none;
-  display: block;
-  height: 65px;
-  text-indent: 100%;
-  overflow: hidden;
-  background-image: url(../images/app-platforms.png);
+  display: block; 
 }
 
 .gadgets-menu .ipxone {
-  background-position: -22px 0;
+  background-image: url(../images/ipxon.png);
   width: 40px;
+  height: 65px;
 }
 .gadgets-menu .ipad {
-  background-position: -22px 65px;
+ background-image: url(../images/ipad.png);
   width: 38px;
+  height: 68px;
 }
 .gadgets-menu .android {
-  background-position: -18px 131px;
+ background-image: url(../images/android.png);
   width: 46px;
+  height: 67px;
 }
 .gadgets-menu .kindle {
-  background-position: -22px bottom;
-  width: 38px;
+ background-image: url(../images/kindle.png);
+  width: 36px;
+  height: 66px;
 }
 .gadgets-menu .ipxone:hover {
-  background-position: 57px 0;
+  background-image: url(../images/ipxon_hover.png);
 }
 .gadgets-menu .ipad:hover {
-  background-position: 57px 65px;
+  background-image: url(../images/ipad_hover.png);
 }
 .gadgets-menu .android:hover {
-  background-position: 61px 131px;
+  background-image: url(../images/android_hover.png);
 }
 .gadgets-menu .kindle:hover {
-  background-position: 57px bottom;
+  background-image: url(../images/kindle_hover.png);
 }
 
 
